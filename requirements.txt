@@ -1,0 +1,72 @@
+# Core Web Framework
+streamlit>=1.28.0
+
+# Document Processing
+unstructured[all-docs]>=0.10.0
+python-magic-bin>=0.4.14; sys_platform == "win32"
+python-magic>=0.4.27; sys_platform != "win32"
+
+# LangChain Components
+langchain-ollama>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# Vector Database
+faiss-cpu>=1.7.4
+
+# Document Format Support
+pypdf>=3.15.0
+python-docx>=0.8.11
+openpyxl>=3.1.2
+
+# Text Processing
+nltk>=3.8.1
+spacy>=3.6.0
+
+# Additional Dependencies for Unstructured
+pillow>=10.0.0
+markdown>=3.4.4
+lxml>=4.9.3
+beautifulsoup4>=4.12.2
+requests>=2.31.0
+
+# PDF Processing Enhancement
+pdfplumber>=0.9.0
+pymupdf>=1.23.0
+
+# Microsoft Office Support
+python-pptx>=0.6.21
+
+# Image Processing (for PDFs with images)
+opencv-python-headless>=4.8.0
+
+# Email Processing (if needed)
+email-validator>=2.0.0
+
+# Async Support
+aiofiles>=23.1.0
+
+# Caching and Performance
+diskcache>=5.6.3
+
+# Logging and Monitoring
+loguru>=0.7.0
+
+# Type Hints Support
+typing-extensions>=4.7.0
+
+# System Info
+psutil>=5.9.5
+
+# Development Dependencies (Optional)
+# Uncomment if you want development tools included
+# pytest>=7.4.0
+# flake8>=6.0.0
+# black>=23.7.0
+# isort>=5.12.0
+# mypy>=1.5.0
+
+# Optional: Enhanced PDF Processing
+# tesseract>=0.1.3  # OCR support for scanned PDFs
+# pdf2image>=1.16.3  # Convert PDF pages to images
