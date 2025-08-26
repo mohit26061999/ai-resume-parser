@@ -272,10 +272,6 @@ pytest tests/
 flake8 app.py
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **[Ollama](https://ollama.ai/)** - Local LLM runtime
@@ -303,4 +299,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ⭐ **If this project helped you, please give it a star on GitHub!**
 
 Made with ❤️ by Mohit Kumar (https://github.com/mohit26061999)
+
 
